@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    background-color: rgba(47, 44, 44, 0.661);
+}
+.main_div{
+    margin-left:25%;
+    margin-right:25%;
+    width: 960px;
+    height: 760px;
+    display: flex;
+    flex-direction:column;
+    border: 9px solid rgb(72, 9, 9);
+    background-color:white;
+}
+
+.hrz_div{
+    padding: 0px;
+    flex: 1 1 auto;
+    display: flex;
+}   
+.cell_div{
+   
+    flex:1;
+    border: 0.5px solid black;
+    
+}
+.cell_div:hover{
+    background-color: black;
+}
+.sketched{
+    background-color:red;
+}
