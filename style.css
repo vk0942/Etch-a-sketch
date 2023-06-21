@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background-color: rgba(47, 44, 44, 0.661);
+    background: linear-gradient(90deg,black,rgb(73, 72, 72),black);
 }
 .main_div{
     margin-left:25%;
@@ -9,8 +9,9 @@ body{
     height: 760px;
     display: flex;
     flex-direction:column;
-    border: 9px solid rgb(72, 9, 9);
-    background-color:white;
+    border: 9px solid rgb(125, 24, 24);
+    border-radius: 20px;
+    background-color: black;
 }
 
 .hrz_div{
@@ -21,12 +22,60 @@ body{
 .cell_div{
    
     flex:1;
-    border: 0.5px solid black;
+    border: 0.5px solid grey;
     
 }
 .cell_div:hover{
     background-color: black;
 }
-.sketched{
-    background-color:red;
+
+.controls{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content:space-around;
+    border: 4px solid rgb(40, 185, 198);
+    border-radius: 20px;
+}
+.controls button{
+    border: 3px solid rgb(26, 191, 197);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(52, 60, 60, 0.334);
+    color:rgb(22, 255, 228);
+    font-weight: 100px;
+}
+.controls button:hover{
+    background-color:blue
+}
+
+h1{
+    background: linear-gradient(90deg,rgb(2, 2, 68),rgb(10, 10, 145),blue);
+    color: white;
+    font-family: sans-serif;
+}
+.colorpicker{
+    font-size: 30px;
+}
+#colorpicker{
+    margin-top: 10px;
+    margin-left: 0px;
+}
+.YO{
+    background: linear-gradient(90deg, violet,indigo,blue,green,yellow,orange,Red);
+}
+footer a {
+    margin-left: 15px;
+    color: white;
+}
+footer{
+    text-align:left;
+    color: white;
+    padding:4px;
+    height: 20px;
+    background: linear-gradient(90deg,rgb(2, 2, 63),rgb(5, 5, 131),rgb(57, 57, 242));
+}
+.breaker{
+    font-size: 20px;
+    margin-left: 3px;
 }
