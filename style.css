@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background: linear-gradient(90deg,black,rgb(73, 72, 72),black);
+    background: linear-gradient(90deg,rgb(73,72,255),rgb(73, 72, 72),black);
 }
 .main_div{
     margin-left:25%;
